@@ -1,0 +1,14 @@
+<h2>Content Sync</h2>
+
+<p>What is the Content Sync Config Node</p>
+
+<p>The node structure that determines what should be included in the built application zip file</p>
+
+<ul>
+	<li>AEM Apps builds this node as part of the application create process</li>
+	<li>This node needs to be replicated to publish</li>
+	<li>The root node has a nodetype of cq:ContentSyncConfig and a sling:resourceType property set to contentsync/config</li>
+	<li>Each node below the root has two propertys</li>
+	<li>path - which is the location of the content to be copied/requested</li>
+	<li>type - this is used to determine what type of content handler to use when requesting content</li>
+</ul>
