@@ -1,0 +1,98 @@
+.reveal {
+
+  .titleSlide {
+    
+    width: 100%;
+
+    .brandWrapper {
+
+      @extend .clearfix;
+
+      .brand {
+
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        box-sizing: border-box;
+
+        float: left;
+        padding: 0 25px 0 0;
+        border-right: 1px solid #ffffff;
+
+        h1 {
+
+          font-family: $headingFont;
+          text-transform: uppercase;
+          font-size: 5em;
+          color: #ffffff;
+
+        }
+
+        h3 {
+
+          font-family: $headingFont;
+          margin-left: 5px;
+          font-size: 1.2em;
+          color: #ffffff;
+
+          &.citytech {
+
+            color: #F2B348;
+            margin-bottom: 0;
+
+          }
+
+        }
+
+      }
+
+      .presentationInfo {
+
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box; /* Firefox, other Gecko */
+        box-sizing: border-box;
+
+        float: left;
+        margin-left: 25px;
+        padding: 5px 0 0 0;
+        max-width: 54%;
+
+        h2, h3, h4 {
+          font-family: "museo-slab";
+          text-transform: none;
+          margin: 0px 0 0 0;
+          color: #C2C2C2;
+        }
+
+        h2 {
+          font-size: 1.2em;
+          line-height: 1.32em;
+
+          &.long{
+            font-size: 1.1em;
+          }
+        }
+
+
+        h4 {
+          font-size: 1em;
+          color: #9F9F9F;
+          margin-top: 10px;
+        }
+
+        .presenter {
+
+          margin-bottom: 60px;
+
+        }
+
+      }
+
+    }
+
+
+
+  }
+
+
+}
+

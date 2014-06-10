@@ -1,0 +1,29 @@
+/**
+ * Default theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+// This file has been copied over from
+// ../../bower_components/reveal.js/css/theme/source/default.scss
+
+// Default mixins and settings -----------------
+@import "mixins";
+@import "settings";
+// ---------------------------------------------
+
+
+
+// CIRCUIT Theme ------------------------------
+@import "typography";
+@import "header";
+@import "footer";
+@import "titleSlide";
+@import "navigation";
+
+.reveal .slides section{
+  padding: 20px;
+}
+
+// Custom Presentation Styles -------------
+@import "../custom-presentation-styles/presentationStyles";
